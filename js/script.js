@@ -8,8 +8,13 @@ $(function() {
 // initialize amplitude for playing audio
 Amplitude.init({
   "songs": [
-    {"url": "audio/test.mp3"},
-    {"url": "audio/test2.mp3"}
+    {"url": "audio/maxine.mp3"},
+    {"url": "audio/ava.mp3"},
+    {"url": "audio/jady.mp3"},
+    {"url": "audio/lona.mp3"},
+    {"url": "audio/sasha.mp3"},
+    {"url": "audio/rachel.mp3"},
+    {"url": "audio/daniela.mp3"}
   ],
   "callbacks": {
     'time_update': function(){
