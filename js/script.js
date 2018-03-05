@@ -2,7 +2,8 @@
 $(function() {
   if ($(window).width() > $(window).height()) {
     $.scrollify({
-      section : ".slide",
+      section: ".slide",
+      updateHash: false,
     });
   }
 });
