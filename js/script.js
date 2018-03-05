@@ -1,8 +1,10 @@
 // Initialize scrollify for snap scrolling
 $(function() {
-  $.scrollify({
-    section : ".slide",
-  });
+  if ($(window).width() > $(window).height()) {
+    $.scrollify({
+      section : ".slide",
+    });
+  }
 });
 
 // initialize amplitude for playing audio
